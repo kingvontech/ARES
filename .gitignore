@@ -1,0 +1,60 @@
+Build Artifacts
+
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.dll
+*.class
+
+Logs and databases
+
+*.log
+*.sql
+*.sqlite
+.DS_Store
+
+OS/System Files
+
+.DS_Store
+Thumbs.db
+
+Dependency Caches
+
+/node_modules
+/vendor
+npm-debug.log*
+yarn-error.log
+
+Temporary/Cache files
+
+~
+##
+#*#
+.vscode/
+.idea/
+*.swp
+.history/
+.cache/
+/tmp
+
+Specific to Python (if used)
+
+pycache/
+*.pyc
+
+Specific to Java (if used)
+
+/bin/
+/out/
+
+Specific to C/C++ (if used)
+
+*.out
+
+Specific to other tools (if used)
+
+*.iml
+*.iws
+*.bak
